@@ -240,7 +240,11 @@ footer {
   background-attachment: fixed; }
 
 .img1 {
-  background-image: url("../img/rec_2.png");
+  background-image: url("../img/band.jpg");
+  min-height: 100%; }
+
+.img2 {
+  background-image: url("../img/band_2.jpg");
   min-height: 100%; }
 
 .text-div {
@@ -272,13 +276,22 @@ footer {
 .base_img {
   width: 300px;
   height: 300px;
-  left: calc(-4.1666666667% - 19.1666666667px + 20px);
-  position: relative; }
-
-.aside_img {
-  height: 150px;
-  width: 150px;
+  position: relative;
+  text-align: center;
+  color: white;
   display: inline-block; }
+
+.text_top {
+  position: absolute;
+  top: 12px;
+  left: 5%;
+  font-size: 15px; }
+
+.text_bot {
+  position: absolute;
+  bottom: -20px;
+  font-size: 15px;
+  left: 7%; }
 
 .social-icons {
   float: right;
@@ -300,16 +313,16 @@ footer {
   padding-top: 5px;
   padding-left: 0.5px; }
   .fa-instagram:hover {
-    background: linear-gradient(#feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5); }
+    background: #d0842e; }
 
 .fa-spotify {
   padding-top: 5px; }
   .fa-spotify:hover {
-    background: #373737; }
+    background: #d0842e; }
 
 .fa-soundcloud {
   padding-top: 4px; }
   .fa-soundcloud:hover {
-    background: #ff8800; }
+    background: #d0842e; }
 
 /* MODULES STYLES */
