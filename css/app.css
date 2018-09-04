@@ -325,4 +325,11 @@ footer {
   .fa-soundcloud:hover {
     background: #d0842e; }
 
+.iframe {
+  margin-left: 20%; }
+
+iframe {
+  width: 80%;
+  height: 100%; }
+
 /* MODULES STYLES */
