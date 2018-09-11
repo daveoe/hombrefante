@@ -331,11 +331,12 @@ footer {
   .fa-soundcloud:hover {
     background: #d0842e; }
 
+/* iFRAME */
 .iframe {
-  margin-left: 20%; }
+  display: inline-block; }
 
 iframe {
-  width: 80%;
-  height: 100%; }
+  width: 200px;
+  height: 250px; }
 
 /* MODULES STYLES */
