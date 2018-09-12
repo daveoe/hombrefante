@@ -340,3 +340,7 @@ iframe {
   height: 250px; }
 
 /* MODULES STYLES */
+/* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .base_img {
+    width: 200px; } }
