@@ -14,17 +14,28 @@
     background-size: cover
     background-repeat: no-repeat
     background-attachment: fixed
+  +mQ-min(600px)
+    position: relative
+    opacity: 0.80
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+    background-attachment: fixed
 
 .img1
   background-image: url('../img/band.jpg')
   min-height: 100%
   +mQ-max(600px)
     min-height: 100%
+  +mQ-min(600px)
+    min-height: 100%
 
 .img2
   background-image: url('../img/band_2.jpg')
   min-height: 100%
   +mQ-max(600px)
+    min-height: 100%
+  +mQ-min(600px)
     min-height: 100%
 
 .text-div
@@ -38,6 +49,8 @@
   text-transform: uppercase
   +mQ-max(600px)
     font-size: 18px
+  +mQ-min(600px)
+    font-size: 40px
 
 .text-div .txt
   background: #fff

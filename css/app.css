@@ -227,6 +227,10 @@ h3 {
     h3 {
       font-size: 1em;
       padding-bottom: 40px; } }
+  @media screen and (min-width: 600px) {
+    h3 {
+      font-size: 2em;
+      padding-bottom: 60px; } }
 
 /* FOOTER */
 footer {
@@ -235,6 +239,9 @@ footer {
   @media screen and (max-width: 600px) {
     footer {
       font-size: 0.9em; } }
+  @media screen and (min-width: 600px) {
+    footer {
+      font-size: 1.5em; } }
 
 /* LAYOUTS STYLES */
 /* PARALLAX */
@@ -253,6 +260,14 @@ footer {
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed; } }
+  @media screen and (min-width: 600px) {
+    .img1, .img2 {
+      position: relative;
+      opacity: 0.80;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; } }
 
 .img1 {
   background-image: url("../img/band.jpg");
@@ -260,11 +275,17 @@ footer {
   @media screen and (max-width: 600px) {
     .img1 {
       min-height: 100%; } }
+  @media screen and (min-width: 600px) {
+    .img1 {
+      min-height: 100%; } }
 
 .img2 {
   background-image: url("../img/band_2.jpg");
   min-height: 100%; }
   @media screen and (max-width: 600px) {
+    .img2 {
+      min-height: 100%; } }
+  @media screen and (min-width: 600px) {
     .img2 {
       min-height: 100%; } }
 
@@ -280,6 +301,9 @@ footer {
   @media screen and (max-width: 600px) {
     .text-div {
       font-size: 18px; } }
+  @media screen and (min-width: 600px) {
+    .text-div {
+      font-size: 40px; } }
 
 .text-div .txt {
   background: #fff;
@@ -308,6 +332,10 @@ footer {
     .base_img {
       width: 145px;
       height: 150px; } }
+  @media screen and (min-width: 600px) {
+    .base_img {
+      width: 250px;
+      height: 200px; } }
 
 .text_top {
   position: absolute;
@@ -317,6 +345,9 @@ footer {
   @media screen and (max-width: 600px) {
     .text_top {
       font-size: 9.5px; } }
+  @media screen and (min-width: 600px) {
+    .text_top {
+      font-size: 17px; } }
 
 .text_bot {
   position: absolute;
@@ -327,6 +358,11 @@ footer {
     .text_bot {
       font-size: 12px;
       left: 1%; } }
+  @media screen and (min-width: 600px) {
+    .text_bot {
+      font-size: 18px;
+      bottom: -90px;
+      left: 1%; } }
 
 .only_fran {
   position: absolute;
@@ -336,6 +372,10 @@ footer {
   @media screen and (max-width: 600px) {
     .only_fran {
       font-size: 9.5px; } }
+  @media screen and (min-width: 600px) {
+    .only_fran {
+      font-size: 18px;
+      bottom: -90px; } }
 
 .social-icons {
   float: right;
@@ -357,6 +397,11 @@ footer {
       font-size: 22px;
       width: 37px;
       height: 37px; } }
+  @media screen and (min-width: 600px) {
+    .circle-icons {
+      font-size: 40px;
+      width: 62px;
+      height: 62px; } }
 
 .fa-instagram {
   padding-top: 5px;
@@ -366,6 +411,9 @@ footer {
   @media screen and (max-width: 600px) {
     .fa-instagram {
       padding-top: 6px; } }
+  @media screen and (min-width: 600px) {
+    .fa-instagram {
+      padding-top: 8px; } }
 
 .fa-spotify {
   padding-top: 5px; }
@@ -374,6 +422,9 @@ footer {
   @media screen and (max-width: 600px) {
     .fa-spotify {
       padding-top: 6px; } }
+  @media screen and (min-width: 600px) {
+    .fa-spotify {
+      padding-top: 8px; } }
 
 .fa-soundcloud {
   padding-top: 4px; }
@@ -382,6 +433,9 @@ footer {
   @media screen and (max-width: 600px) {
     .fa-soundcloud {
       padding-top: 5px; } }
+  @media screen and (min-width: 600px) {
+    .fa-soundcloud {
+      padding-top: 7px; } }
 
 /* iFRAME */
 .iframe {
@@ -394,5 +448,9 @@ iframe {
     iframe {
       width: 145px;
       height: 200px; } }
+  @media screen and (min-width: 600px) {
+    iframe {
+      width: 250px;
+      height: 350px; } }
 
 /* MODULES STYLES */
