@@ -223,11 +223,18 @@ h3 {
   font-size: 1.5em;
   color: #373737;
   padding-bottom: 50px; }
+  @media screen and (max-width: 600px) {
+    h3 {
+      font-size: 1em;
+      padding-bottom: 40px; } }
 
 /* FOOTER */
 footer {
   text-align: center;
   padding: 40px 0; }
+  @media screen and (max-width: 600px) {
+    footer {
+      font-size: 0.9em; } }
 
 /* LAYOUTS STYLES */
 /* PARALLAX */
@@ -238,14 +245,28 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
+  @media screen and (max-width: 600px) {
+    .img1, .img2 {
+      position: relative;
+      opacity: 0.80;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; } }
 
 .img1 {
   background-image: url("../img/band.jpg");
   min-height: 100%; }
+  @media screen and (max-width: 600px) {
+    .img1 {
+      min-height: 100%; } }
 
 .img2 {
   background-image: url("../img/band_2.jpg");
   min-height: 100%; }
+  @media screen and (max-width: 600px) {
+    .img2 {
+      min-height: 100%; } }
 
 .text-div {
   position: absolute;
@@ -256,6 +277,9 @@ footer {
   font-size: 30px;
   letter-spacing: 10px;
   text-transform: uppercase; }
+  @media screen and (max-width: 600px) {
+    .text-div {
+      font-size: 18px; } }
 
 .text-div .txt {
   background: #fff;
@@ -280,24 +304,38 @@ footer {
   text-align: center;
   color: white;
   display: inline-block; }
+  @media screen and (max-width: 600px) {
+    .base_img {
+      width: 145px;
+      height: 150px; } }
 
 .text_top {
   position: absolute;
   top: 12px;
   left: 1%;
   font-size: 15px; }
+  @media screen and (max-width: 600px) {
+    .text_top {
+      font-size: 9.5px; } }
 
 .text_bot {
   position: absolute;
   bottom: -20px;
   font-size: 15px;
   left: 8%; }
+  @media screen and (max-width: 600px) {
+    .text_bot {
+      font-size: 12px;
+      left: 1%; } }
 
 .only_fran {
   position: absolute;
   bottom: -20px;
   font-size: 15px;
   left: 1%; }
+  @media screen and (max-width: 600px) {
+    .only_fran {
+      font-size: 9.5px; } }
 
 .social-icons {
   float: right;
@@ -314,22 +352,36 @@ footer {
   text-align: center;
   vertical-align: middle;
   color: #f4f6ef; }
+  @media screen and (max-width: 600px) {
+    .circle-icons {
+      font-size: 22px;
+      width: 37px;
+      height: 37px; } }
 
 .fa-instagram {
   padding-top: 5px;
   padding-left: 0.5px; }
   .fa-instagram:hover {
     background: #d0842e; }
+  @media screen and (max-width: 600px) {
+    .fa-instagram {
+      padding-top: 6px; } }
 
 .fa-spotify {
   padding-top: 5px; }
   .fa-spotify:hover {
     background: #d0842e; }
+  @media screen and (max-width: 600px) {
+    .fa-spotify {
+      padding-top: 6px; } }
 
 .fa-soundcloud {
   padding-top: 4px; }
   .fa-soundcloud:hover {
     background: #d0842e; }
+  @media screen and (max-width: 600px) {
+    .fa-soundcloud {
+      padding-top: 5px; } }
 
 /* iFRAME */
 .iframe {
@@ -338,9 +390,9 @@ footer {
 iframe {
   width: 200px;
   height: 250px; }
+  @media screen and (max-width: 600px) {
+    iframe {
+      width: 145px;
+      height: 200px; } }
 
 /* MODULES STYLES */
-/* MEDIA QUERIES */
-@media screen and (max-width: 600px) {
-  .base_img {
-    width: 200px; } }
