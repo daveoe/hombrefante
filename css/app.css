@@ -244,14 +244,14 @@ footer {
 
 .img1 {
   background-image: url("../img/band.jpg");
-  max-height: 100%;
+  min-height: 100%;
   max-width: 900px;
 
 }
 
 .img2 {
   background-image: url("../img/band_2.jpg");
-  max-height: 100%;
+  min-height: 100%;
   max-width: 900px;
 }
 
