@@ -1,14 +1,13 @@
 /* iFRAME */
 
-.iframe
-  display: inline-block
+.frame-container
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-bottom: -1rem
 
-iframe
-  width: 200px
-  height: 250px
-  +mQ-max(600px)
-    width: 105px
-    height: 140px
-  +mQ-min(600px)
-    width: 250px
-    height: 350px
+.iframe iframe
+  width: 70vw
+  height: 70vh
+  margin-bottom: 1.5rem
