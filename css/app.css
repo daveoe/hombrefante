@@ -358,7 +358,7 @@ footer {
       float: right; } }
 
 .circle-icons {
-  width: 10vw;
+  width: 7vw;
   height: 7vh;
   font-size: 24px;
   border: solid 2px #f4f6ef;
@@ -376,11 +376,6 @@ footer {
       margin-right: 2vw;
       margin-top: 4vh;
       font-size: 35px; } }
-  @media only screen and (max-width: 750px) {
-    .circle-icons {
-      width: 10vw;
-      height: 7vh;
-      border-radius: 50%; } }
 
 .fa-instagram {
   padding-top: 6px; }
