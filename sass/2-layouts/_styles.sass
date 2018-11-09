@@ -3,6 +3,8 @@
 .section
   text-align: center
   padding: 10vw 10vw 10vw
+  +mQ-min(900px)
+    padding: 4vw
 
 .clair-sec
   background: $clair
@@ -14,24 +16,39 @@
   flex-direction: column
   align-items: center
   margin-bottom: 1rem
+  +mQ-min(900px)
+    display: flex
+    flex-wrap: wrap
+    flex-direction: row
+    align-items: center
+    justify-content: center
 
 .base_img
   position: relative
   color: white
   margin-bottom: 1.5rem
+  +mQ-min(900px)
+    width: 25%
+    margin: 0
+    margin-right: 2vw
 
 .base_img img
-  width: 70vw
-  height: 60vh
+  width: 80vw
+  height: 65vh
 
 .base_img:last-child
   margin-bottom: 0
+  +mQ-min(900px)
+    margin-top: 2vh
 
 .text_top
   position: absolute
   top: -1vh
   font-size: 4vw
   padding: 5vw
+  +mQ-min(900px)
+    padding: 1.5vw
+    font-size: 1.2vw
 
 .text_bot
   position: absolute
@@ -39,3 +56,6 @@
   font-size: 4vw
   left: 1vw
   padding: 5vw
+  +mQ-min(900px)
+    padding: 1.5vw
+    font-size: 1.2vw

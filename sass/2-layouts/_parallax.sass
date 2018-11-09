@@ -9,11 +9,11 @@
   background-attachment: fixed
 
 .img1
-  background-image: url('../img/band.jpg')
+  background-image: url('../img/band-resize.jpg')
   min-height: 100%
 
 .img2
-  background-image: url('../img/band_2.jpg')
+  background-image: url('../img/band_2-resize.jpg')
   min-height: 100%
 
 .text-div
@@ -25,12 +25,19 @@
   font-size: 5vw
   letter-spacing: 3vw
   text-transform: uppercase
+  +mQ-min(900px)
+    font-size: 1.8vw
+    letter-spacing: 1.8vw
 
 
 .text-div .txt
   background: #fff
   color: #111
   padding: 5vw
+  padding-right: 1.3vw
+  +mQ-min(900px)
+    padding: 2vw
+    padding-right: 0.3vw
 
 .fante
   color: $lecolour

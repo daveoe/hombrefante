@@ -3,10 +3,13 @@
 .social-icons
   display: flex
   float: right
+  +mQ-min(900px)
+    display: flex
+    float: right
 
 .circle-icons
   width: 10vw
-  height: 10vw
+  height: 7vh
   font-size: 24px
   border: solid 2px $clair
   border-radius: 50%
@@ -15,14 +18,29 @@
   color: $clair
   margin-right: 3vw
   margin-top: 3vh
+  +mQ-min(900px)
+    width: 3.9vw
+    height: 9.1vh
+    border-radius: 50%
+    margin-right: 2vw
+    margin-top: 4vh
+    font-size: 35px
+  +mQ-max(750px)
+    width: 10vw
+    height: 7vh
+    border-radius: 50%
 
 .fa-instagram
   padding-top: 6px
+  +mQ-min(900px)
+    padding-top: 6.3px
   &:hover
     background: #d0842e
 
 .fa-spotify
  padding-top: 6px
+ +mQ-min(900px)
+   padding-top: 6.3px
  &:hover
     background: #d0842e
 
