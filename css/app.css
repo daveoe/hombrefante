@@ -339,17 +339,18 @@ footer {
   margin-top: 3vh; }
 
 .fa-instagram {
-  padding-top: 6px; }
+  padding-top: 4px;
+  padding-left: 1px; }
   .fa-instagram:hover {
     background: #d0842e; }
 
 .fa-spotify {
-  padding-top: 6px; }
+  padding-top: 4px; }
   .fa-spotify:hover {
     background: #d0842e; }
 
 .fa-soundcloud {
-  padding-top: 5px; }
+  padding-top: 3px; }
   .fa-soundcloud:hover {
     background: #d0842e; }
 
