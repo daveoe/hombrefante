@@ -270,7 +270,7 @@ footer {
 
 .section {
   text-align: center;
-  padding: 12vw 10vw 10vw; }
+  padding: 10vw 10vw 10vw; }
 
 .clair-sec {
   background: #f4f6ef;
@@ -315,7 +315,7 @@ footer {
 .circle-icons {
   width: 10vw;
   height: 10vw;
-  font-size: 25px;
+  font-size: 24px;
   border: solid 2px #f4f6ef;
   border-radius: 50%;
   text-align: center;
@@ -325,18 +325,18 @@ footer {
   margin-top: 3vh; }
 
 .fa-instagram {
-  padding-top: 0.9vh;
+  padding-top: 1vh;
   padding-left: -0.9vw; }
   .fa-instagram:hover {
     background: #d0842e; }
 
 .fa-spotify {
-  padding-top: 0.9vh; }
+  padding-top: 1vh; }
   .fa-spotify:hover {
     background: #d0842e; }
 
 .fa-soundcloud {
-  padding-top: 0.7vh; }
+  padding-top: 0.9vh; }
   .fa-soundcloud:hover {
     background: #d0842e; }
 
