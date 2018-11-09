@@ -244,16 +244,11 @@ footer {
 
 .img1 {
   background-image: url("../img/band.jpg");
-  min-height: 100%;
-
-
-}
+  min-height: 100%; }
 
 .img2 {
   background-image: url("../img/band_2.jpg");
-  min-height: 100%;
-
-}
+  min-height: 100%; }
 
 .text-div {
   position: absolute;
@@ -330,18 +325,17 @@ footer {
   margin-top: 3vh; }
 
 .fa-instagram {
-  padding-top: 1vh;
-  padding-left: -0.9vw; }
+  padding-top: 6px; }
   .fa-instagram:hover {
     background: #d0842e; }
 
 .fa-spotify {
-  padding-top: 1vh; }
+  padding-top: 6px; }
   .fa-spotify:hover {
     background: #d0842e; }
 
 .fa-soundcloud {
-  padding-top: 0.9vh; }
+  padding-top: 5px; }
   .fa-soundcloud:hover {
     background: #d0842e; }
 
