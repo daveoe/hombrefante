@@ -207,8 +207,7 @@ hr {
 body {
   font-family: "Consolas", "monaco", monospace;
   margin: 0;
-  padding: 0;
-  max-width: 750px; }
+  padding: 0; }
 
 a {
   text-decoration: none;
@@ -284,11 +283,6 @@ footer {
   align-items: center;
   margin-bottom: 1rem; }
 
-@media only screen and (max-width: 750px) {
-  .base-container {
-    display: flex;
-    flex-direction: column; } }
-
 .base_img {
   position: relative;
   color: white;
@@ -317,11 +311,6 @@ footer {
 .social-icons {
   display: flex;
   float: right; }
-
-@media only screen and (max-width: 750px) {
-  .social-icons {
-    display: flex;
-    float: right; } }
 
 .circle-icons {
   width: 10vw;
