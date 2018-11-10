@@ -378,7 +378,7 @@ footer {
       font-size: 35px; } }
 
 .fa-instagram {
-  padding-top: 5px; }
+  padding-top: 5.5px; }
   @media only screen and (min-width: 900px) {
     .fa-instagram {
       padding-top: 6.3px; } }
@@ -386,7 +386,8 @@ footer {
     background: #d0842e; }
 
 .fa-spotify {
-  padding-top: 5px; }
+  padding-top: 5.5px;
+  height: 6.9vh;}
   @media only screen and (min-width: 900px) {
     .fa-spotify {
       padding-top: 6.3px; } }
