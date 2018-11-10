@@ -233,7 +233,7 @@ h3 {
 footer {
   text-align: center;
   padding: 6vw;
-  font-size: 4vw; }
+  font-size: 3.5vw; }
   @media only screen and (min-width: 900px) {
     footer {
       font-size: 1.5vw; } }
@@ -358,7 +358,7 @@ footer {
       float: right; } }
 
 .circle-icons {
-  width: 14vw;
+  width: 13vw;
   height: 7vh;
   font-size: 24px;
   border: solid 2px #f4f6ef;
@@ -370,7 +370,7 @@ footer {
   margin-top: 3vh; }
   @media only screen and (min-width: 900px) {
     .circle-icons {
-      width: 3.9vw;
+      width: 4vw;
       height: 9.1vh;
       border-radius: 50%;
       margin-right: 2vw;
