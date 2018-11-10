@@ -232,8 +232,8 @@ h3 {
 /* FOOTER */
 footer {
   text-align: center;
-  padding: 5vw;
-  font-size: 3.7vw; }
+  padding: 6vw;
+  font-size: 3.6vw; }
   @media only screen and (min-width: 900px) {
     footer {
       font-size: 1.5vw; } }
@@ -359,7 +359,7 @@ footer {
 
 .circle-icons {
   width: 11vw;
-  height: 6.7vh;
+  height: 6.8vh;
   font-size: 24px;
   border: solid 2px #f4f6ef;
   border-radius: 50%;
