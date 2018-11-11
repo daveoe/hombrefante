@@ -368,8 +368,8 @@ footer {
   color: #f4f6ef;
   margin-right: 3vw;
   margin-top: 3vh;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  -webkit-tap-highlight-color: transparent;
+
+
 }
   @media only screen and (min-width: 900px) {
     .circle-icons {
