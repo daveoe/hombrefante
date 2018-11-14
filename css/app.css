@@ -360,17 +360,15 @@ footer {
 .circle-icons {
   width: 11vw;
   height: 6.8vh;
-  font-size: 24px;
+  font-size: 160%;
   border: solid 2px #f4f6ef;
   border-radius: 50%;
   text-align: center;
-  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
   color: #f4f6ef;
   margin-right: 3vw;
-  margin-top: 3vh;
-
-
-}
+  margin-top: 3vh; }
   @media only screen and (min-width: 900px) {
     .circle-icons {
       width: 4vw;
@@ -378,26 +376,27 @@ footer {
       border-radius: 50%;
       margin-right: 2vw;
       margin-top: 4vh;
-      font-size: 35px; } }
+      font-size: 220%; } }
 
 .fa-instagram {
-  padding-top: 5.5px; }
+  padding-top: 10%; }
   @media only screen and (min-width: 900px) {
     .fa-instagram {
-      padding-top: 6.3px; } }
+      padding-top: 9.7%; } }
   .fa-instagram:hover {
     background: #d0842e; }
 
 .fa-spotify {
-  padding-top: 5.5px; }
+  padding-top: 10.9%; }
   @media only screen and (min-width: 900px) {
     .fa-spotify {
-      padding-top: 6.3px; } }
+      padding-top: 9.7%;
+      padding-left: 1%; } }
   .fa-spotify:hover {
     background: #d0842e; }
 
 .fa-soundcloud {
-  padding-top: 4px; }
+  padding-top: 8%; }
   .fa-soundcloud:hover {
     background: #d0842e; }
 
