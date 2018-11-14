@@ -357,10 +357,6 @@ footer {
       display: flex;
       float: right; } }
 
-span a {
-  -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: transparent; }
-
 .circle-icons {
   width: 11vw;
   height: 6.8vh;
@@ -383,9 +379,7 @@ span a {
       font-size: 220%; } }
 
 .fa-instagram {
-  padding-top: 11%;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: transparent; }
+  padding-top: 11%; }
   @media only screen and (min-width: 900px) {
     .fa-instagram {
       padding-top: 9.7%; } }
@@ -393,9 +387,7 @@ span a {
     background: #d0842e; }
 
 .fa-spotify {
-  padding-top: 10.9%;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: transparent; }
+  padding-top: 10.9%; }
   @media only screen and (min-width: 900px) {
     .fa-spotify {
       padding-top: 9.7%;
@@ -404,9 +396,7 @@ span a {
     background: #d0842e; }
 
 .fa-soundcloud {
-  padding-top: 9%;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: transparent; }
+  padding-top: 9%; }
   .fa-soundcloud:hover {
     background: #d0842e; }
 
