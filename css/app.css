@@ -358,7 +358,7 @@ footer {
       float: right; } }
 
 span a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent; }
 
 .circle-icons {
@@ -383,7 +383,9 @@ span a {
       font-size: 220%; } }
 
 .fa-instagram {
-  padding-top: 11%; }
+  padding-top: 11%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; }
   @media only screen and (min-width: 900px) {
     .fa-instagram {
       padding-top: 9.7%; } }
@@ -391,7 +393,9 @@ span a {
     background: #d0842e; }
 
 .fa-spotify {
-  padding-top: 10.9%; }
+  padding-top: 10.9%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; }
   @media only screen and (min-width: 900px) {
     .fa-spotify {
       padding-top: 9.7%;
@@ -400,7 +404,9 @@ span a {
     background: #d0842e; }
 
 .fa-soundcloud {
-  padding-top: 9%; }
+  padding-top: 9%;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; }
   .fa-soundcloud:hover {
     background: #d0842e; }
 
